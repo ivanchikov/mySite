@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: verdana, sans-serif;
+}
+
+h1 {
+  margin-top: 50px;
+  font-size: 400%;
+  color: #41444b;
+}
+
+h2 {
+  font-size: 200%;
+}
+
+h3 {
+  color: #41444b;
+}
+
+p {
+  color: #41444b;
+}
+
+/* hr {
+  border-style:dotted none none none;
+  border-color: grey;
+  border-width: 10px;
+  width: 10%
+} */
+/* class selector */
+.quote01 {
+  color: #52575d;
+}
+
+.top-container {
+  background-color: #f6f4e6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.mid-container {
+  margin: 50px;
+}
+
+.profile {
+  margin-bottom: 50px;
+}
+
+.bot-container {
+  background-color: #f6f4e6;
+  padding: 30px 0 10px 0;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bot-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.skill-row {
+  width: 60%;
+  margin: 50px auto;
+  text-align: left;
+  line-height: 2;
+  display: inline-block;
+}
+
+.me-img {
+  width: 35%;
+  float: left;
+  margin-right: 40px;
+}
+
+.it-img {
+  width: 35%;
+  float: right;
+  margin-left: 40px;
+}
+
+.lang-img {
+  width: 35%;
+  float: left;
+  margin-right: 40px;
+}
+
+.btn {
+  margin: 50px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #52575d;
+  font-family: Arial;
+  font-size: 40px;
+  font-weight: 100;
+  padding: 20px;
+  background-color: #F6F4E6;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #ed6663;
+  background-image: -webkit-linear-gradient(top, #ed6663, #ffa372);
+  background-image: -moz-linear-gradient(top, #ed6663, #ffa372);
+  background-image: -ms-linear-gradient(top, #ed6663, #ffa372);
+  background-image: -o-linear-gradient(top, #ed6663, #ffa372);
+  background-image: -webkit-gradient(to bottom, #ed6663, #ffa372);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.footer-link {
+  color: #c9d6df;
+  margin: auto 20px;
+  font-family: verdana, sans-serif;
+  text-decoration: none;
+}
+
+.copyright {
+  color: #c9d6df;
+  font-size: 75%;
+  padding: 20px 0;
+}
